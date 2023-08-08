@@ -6,4 +6,5 @@ var http = require("http")
 http.createServer(function(req, res){
     res.write('sagar');
     res.end();
-}).listen(8080);
+    
+}).listen(8080,console.log('okkkkkk'));
