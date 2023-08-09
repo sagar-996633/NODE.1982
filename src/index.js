@@ -1,3 +1,7 @@
+const { connectDB } = require("./db/dbConnections");
+const config = require("./Config/config");
+
+
 // const express = require("express")
 // const app = express()
 // app.listen(8080);
